@@ -16,7 +16,7 @@ st.title("🚲 Bike Sharing Demand Prediction System")  						# App title
 # Load dataset
 # =============================
 try:
-    df = pd.read_csv("Dataset.csv")   								# Load dataset from CSV file
+    df = pd.read_csv("Dataset (1).csv")   								# Load dataset from CSV file
     
 except Exception as e:
     st.error(f"❌ Failed to load dataset: {e}")  						# Error if file not found
